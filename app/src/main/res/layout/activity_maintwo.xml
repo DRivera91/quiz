@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="co.edu.konradlorenz.quiz.Maintwo">
+
+    <EditText
+        android:id="@+id/editText"
+        android:ems="10"
+        style="@style/textmain.address"
+        android:layout_marginHorizontal="30dp"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/textVista"
+        android:layout_marginHorizontal="30dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        style="@style/imagenes"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginVertical="30dp"
+        app:srcCompat="@drawable/hug_emoji" />
+</android.support.v7.widget.LinearLayoutCompat>

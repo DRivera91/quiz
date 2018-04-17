@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="co.edu.konradlorenz.quiz.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        style="@style/imagenes"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginVertical="30dp"
+        app:srcCompat="@drawable/salir" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/textVista"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/quiz"
+        app:layout_constraintBottom_toTopOf="@+id/editName"
+        tools:layout_editor_absoluteX="27dp" />
+
+    <EditText
+        android:id="@+id/editName"
+        style="@style/textmain.name"
+        android:layout_marginHorizontal="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/editSurname"
+        tools:layout_editor_absoluteX="27dp" />
+
+    <EditText
+        android:id="@+id/editSurname"
+        style="@style/textmain.surname"
+        android:layout_marginHorizontal="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/editDate"
+        tools:layout_editor_absoluteX="27dp" />
+
+    <EditText
+        android:id="@+id/editDate"
+        style="@style/textmain.date"
+        android:layout_marginHorizontal="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        tools:layout_editor_absoluteX="27dp" />
+
+</android.support.v7.widget.LinearLayoutCompat>

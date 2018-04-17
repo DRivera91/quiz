@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppThemetwo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/deep_orange_500</item>
+        <item name="colorPrimaryDark">@color/deep_orange_800</item>
+        <item name="colorAccent">@color/amber_100</item>
+    </style>
+    <style name="imagenes">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/indigo_200</item>
+    </style>
+    <style name="textVista">
+        <item name="android:layout_width">330dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/light_blue_200</item>
+    </style>
+    <style name="textmain">
+        <item name="android:textColor">@color/teal_200</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_width">330dp</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:ems">10</item>
+    </style>
+    <style name="textmain.name">
+        <item name="android:hint">@string/name</item>
+    </style>
+    <style name="textmain.surname">
+        <item name="android:hint">@string/surname</item>
+    </style>
+    <style name="textmain.date">
+        <item name="android:hint">@string/date</item>
+    </style>
+
+
+    <style name="textmain.address">
+        <item name="android:hint">@string/address</item>
+        <item name="android:textColorHint">@color/deep_purple_400</item>
+    </style>
+    <style name="textmain.telephone">
+        <item name="android:hint">@string/telephone</item>
+        <item name="android:textColorHint">@color/deep_purple_400</item>
+    </style>
+
+</resources>

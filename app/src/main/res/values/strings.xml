@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">quiz</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellido</string>
+    <string name="date">Fecha</string>
+    <string name="quiz">Examen practico</string>
+    <string name="address">Direccion</string>
+    <string name="telephone">Telefono</string>
+</resources>
